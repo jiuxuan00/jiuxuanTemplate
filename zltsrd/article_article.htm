@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field.keywords/}" />
+<meta name="description" content="{dede:field.description function='html2text(@me)'/}" />
+<link type="text/css" href="/templets/default/css2/common.css" rel="stylesheet"/>
+<link type="text/css" href="/templets/default/css2/article.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="wa">
+{dede:include filename="header.htm"/}
+<!-- //header -->
+<div class="wa">
+  <div class="content">
+    <div class="article">
+      <div class="crumbs">当前位置：{dede:field name='position'/} > </div>
+      <h1>{dede:field.title/}</h1>
+       <div class="fontsize"><span class="fr">浏览字号： ：<a href="javascript:viod(0);" onclick="Zoom.style.fontSize='24px';">大</a> <a href="javascript:viod(0);" onclick="Zoom.style.fontSize='18px';">中</a> <a href="javascript:viod(0);" onclick="Zoom.style.fontSize='14px';">小</a></span> 来源： {dede:field.source/} {dede:field.pubdate function="MyDate('Y-m-d H:i',@me)"/}</div>
+       <div id="Zoom" class="text">
+		{dede:field.body/}
+
+       </div>
+       <div class="article_btm"><a href="/" title="返回首页">&lt;&lt; 返回首页</a></div>
+
+    </div>  
+    <!--/End-->
+    {dede:include filename="footer2.htm"/}
+  </div>
+</div>
+<script type="text/javascript" src="/templets/default/js2/jquery.min.js"></script>
+<script type="text/javascript" src="/templets/default/js2/jquery.yx_rotaion.js"></script>
+<script type="text/javascript">
+$(".yx-rotaion").yx_rotaion({auto:true});
+</script>
+</body>
+</html>

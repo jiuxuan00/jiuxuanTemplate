@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<meta name="description" content="{dede:global.cfg_description/}" />
+<link type="text/css" href="{dede:global.cfg_templets_skin/}/css2/common.css" rel="stylesheet"/>
+<link type="text/css" href="{dede:global.cfg_templets_skin/}/css2/index.css" rel="stylesheet"/>
+</head>
+<body>
+{dede:include filename="header.htm"/}
+<!-- //header -->
+<div class="wa">
+  <div class="content">
+    <div class="newbox">
+      <div class="fouces">
+        <div class="yx-rotaion">
+          <ul class="rotaion_list">
+		  {dede:arclist row="5" typeid="1" titlelen="42" flag="f" orderby="id"}
+            <li><a href="[field:arcurl /]"><img src="[field:picname/]" alt="[field:fulltitle/]" width="480" height="250"></a></li>
+          {/dede:arclist}
+          </ul>
+        </div>
+      </div>
+      <!-- //轮播图 -->
+	  <div class="bignews">
+		<ul class="c2 ico1">
+		{dede:arclist row="1" typeid="1" titlelen="50" orderby="id" flag="h"}
+		  <li><a href="[field:arcurl /]" title="[field:fulltitle/]" target="_blank">[field:title/]<em>&#160;&#160;&#160;&#160;</em></a>[field:pubdate function='strftime("%m-%d",@me)'/]</li>
+        {/dede:arclist}
+		{dede:arclist row="4" typeid="1" titlelen="50" orderby="id" t noflag="h"}
+		  <li><a href="[field:arcurl /]" title="[field:fulltitle/]" target="_blank">[field:title/]<em>&#160;&#160;&#160;&#160;</em></a>[field:pubdate function='strftime("%m-%d",@me)'/]</li>
+        {/dede:arclist}
+		</ul>
+	  </div>
+	  
+      <div class="leader">
+        <dl>
+		  <dt>常委会领导</dt>
+          <dd>
+            <div class="img">
+			  <a style="float:left;" href="/lingdaozhichuang/2013/0417/cuixuebin.html"><img src="{dede:global.cfg_templets_skin/}/pic2/leader-pic.jpg" width="90"></a>
+			  <strong>常委会主任</strong>
+			  <strong>崔学斌</strong>
+			  <strong><a href="">主任信箱</a><div class="clear"></div></strong>
+			</div>
+          </dd>
+		  <dd style="width:200px;height:1px;margin-top:8px;margin-bottom:5px;background:#fdc635;overflow:hidden;display:inline;"></dd>
+		  <dd>
+		    <div class="t1">
+              <p> <em>副主任：</em> <strong><a href="/lingdaozhichuang/2013/0417/liushiyong.html" title="刘士勇">刘士勇</a><a href="/lingdaozhichuang/2013/0417/jinxiaomeng.html" title="靳晓蒙">靳晓蒙</a><a href="/lingdaozhichuang/2013/0417/shenyingchun.html" title="申迎春">申迎春</a><a href="/lingdaozhichuang/2013/0417/lijuan.html" title="李娟">李&#160;&#160;娟</a></strong> </p>
+              <p><em>秘书长：</em><strong><a href="/lingdaozhichuang/2013/0417/zhanghonglei.html" target="" title="张洪雷">张洪雷</a></strong></p>
+            </div>
+		  </dd>
+        </dl>
+      </div>
+      <!-- //领导 -->
+    </div>
+    <div class="banner mt10 mb10 fl"><img src="{dede:global.cfg_templets_skin/}/pic2/banner0.jpg" width="1000" alt=""></div>
+    <div class="bor_yellow"></div>
+    <div class="newbox">
+      <div class="nleft">
+        <dl>
+          <dt><a title="" href="" target="_blank"><img title="" src="{dede:global.cfg_templets_skin/}/pic2/xianfa1.gif"></a></dt>
+          <dd>
+            <h2>常委会委员</h2>
+            <p style="margin-top:-5px;"><a href="" target="_blank">马英君</a></p>
+			<p><a href="" target="_blank">曲行民</a></p>
+			<p><a href="" target="_blank">闫洪顺</a></p>
+			<p><a href="" target="_blank">杜明艳</a></p>
+			<p><a href="" target="_blank">李光伟</a></p>
+			<p><a href="" target="_blank">李金生</a></p>
+			<p><a href="" target="_blank">李春会</a></p>
+			<p><a href="" target="_blank">李雅平</a></p>
+			<p><a href="" target="_blank">杨  华</a></p>
+			<p><a href="" target="_blank">沈立文</a></p>
+			<p><a href="" target="_blank">张卫军</a></p>
+			<p><a href="" target="_blank">张秀琰</a></p>
+			<p><a href="" target="_blank">张洪雷</a></p>
+			<p><a href="" target="_blank">封  鑫</a></p>
+			<p><a href="" target="_blank">高淑娟</a></p>
+			<p><a href="" target="_blank">郭福生</a></p>
+			<p><a href="" target="_blank">曹志宇</a></p>
+			<p><a href="" target="_blank">曹学泉</a></p>
+			<p><a href="" target="_blank">孙宇琨</a></p>
+			<p><a href="" target="_blank">赵兰坤</a></p>
+          </dd>
+        </dl>
+      </div>
+      <!-- //zuoce -->
+      <div class="nright">
+        <div class="newslist">
+          <h3 class="title"><a href="" target="_blank" class="">人大要闻</a></h3>
+          <ul>
+			{dede:arclist row="10" typeid="1" titlelen="80" orderby="id"}
+		    <li><a href="[field:arcurl /]" target="_blank">[field:title/]</a></li>
+			{/dede:arclist}
+
+          </ul>
+          <div class="px1"></div>
+          <ul style="margin-left:10px;">
+			{dede:arclist limit="10,10" typeid="1" titlelen="80" orderby="id"}
+		    <li><a href="[field:arcurl /]" target="_blank">[field:title/]</a></li>
+			{/dede:arclist}
+          </ul>
+        </div>
+        <div class="banner">
+          <p class="fl mr10"><img src="{dede:global.cfg_templets_skin/}/pic2/banner3.jpg" width="403" alt=""></p>
+          <p class="fl"><img src="{dede:global.cfg_templets_skin/}/pic2/banner4.jpg" width="403" alt=""></p>
+        </div>
+        <div class="newslist">
+          <h3 class="title"><a href="" target="_blank" class="">人大知识</a></h3>
+          <ul>
+			{dede:arclist row="10" typeid="12" titlelen="80" orderby="id"}
+		    <li><a href="[field:arcurl /]" target="_blank">[field:title/]</a></li>
+			{/dede:arclist}
+
+          </ul>
+          <div class="px1"></div>
+          <ul style="margin-left:10px;">
+			{dede:arclist limit="10,10" typeid="12" titlelen="80" orderby="id"}
+		    <li><a href="[field:arcurl /]" target="_blank">[field:title/]</a></li>
+			{/dede:arclist}
+          </ul>
+        </div>
+<!--
+        <div class="imglist">
+          <h3 class="title">图片新闻</h3>
+          <ul>
+			{dede:arclist row="8" typeid="1" flag="p" orderby="id" noflag="f"}
+            <li><a href="[field:arcurl /]"><img src="[field:picname/]" alt="[field:fulltitle/]"></a></li>
+			{/dede:arclist}
+          </ul>
+        </div>
+-->
+      </div>
+    </div>
+	<div class="banner mt10 mb10 fl"><img src="{dede:global.cfg_templets_skin/}/pic2/changcheng.jpg" width="1000" alt=""></div>
+    <div class="links">
+      <h3 class="title">相关链接</h3>
+      <div class="alinks">
+        <a href="http://www.zltdj.gov.cn/" title="扎兰屯市党建网">扎兰屯市党建网</a> | <a href="http://www.zhalantun.gov.cn/" title="扎兰屯市政府网">扎兰屯市政府网</a> | <a href="http://www.zltszx.gov.cn/" title="扎兰屯市政协">扎兰屯市政协</a> | <a href="http://www.zhalantunnews.com/" title="扎兰屯新闻网">扎兰屯新闻网</a>
+      </div>
+    </div>
+    <!--/End-->
+    {dede:include filename="footer2.htm"/}
+  </div>
+</div>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js2/jquery.min.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js2/jquery.yx_rotaion.js"></script>
+<script type="text/javascript">
+$(".yx-rotaion").yx_rotaion({auto:true});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+@charset "gb2312";
+
+.content .newbox {width:100%;float:left; }
+.content .newbox .fouces {width:480px;height:250px;float:left;overflow:hidden;}
+
+
+/*===/Kaishi/===首页轮播图开始===*/
+.yx-rotaion{margin:0 auto;}
+.yx-rotaion-btn,.yx-rotaion-title,.yx-rotation-focus,.yx-rotation-t,.yx-rotaion-btn{position:absolute}
+.yx-rotation-title{position:absolute;width:100%;height:40px;line-height:40px;background:#000;filter:alpha(opacity=40);-moz-opacity:0.4;-khtml-opacity:0.4;opacity:0.4;left:0;bottom:0;_bottom:-1px;z-index:1}
+.yx-rotation-t{color:#fff;font-size:16px;font-family:microsoft yahei;z-index:2;bottom:0;left:10px;line-height:40px}
+.yx-rotation-focus span,.yx-rotaion-btn span{background:url(../pic2/ico.png) no-repeat;display:block;}
+.yx-rotation-focus{height:40px;line-height:40px;right:20px;bottom:0;z-index:2}
+.yx-rotation-focus span{width:11px;height:11px;line-height:11px;float:left;margin-left:5px;position:relative;top:14px;cursor:pointer;background-position:-24px -126px;text-indent:-9999px}
+.yx-rotaion-btn{width:100%;height:41px;top:50%;margin-top:-20px;}
+.yx-rotaion-btn span{width:41px;height:41px;cursor:pointer;filter:alpha(opacity=30);-moz-opacity:0.3;-khtml-opacity:0.3;opacity:0.3;position:relative}
+.yx-rotaion-btn .left_btn{background-position:-1px -1px;float:left;left:10px}
+.yx-rotaion-btn .right_btn{background-position:-1px -49px;float:right;right:10px}
+.yx-rotaion-btn span.hover{filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity:0.8;opacity:0.8}
+.yx-rotation-focus span.hover{background-position:-10px -126px}
+.rotaion_list{width:0;height:0;overflow:hidden;}
+/*===/End/===首页轮播图开始===*/
+.newbox .leader {width:220px;height:242px;padding-top:5px;float:right;background:#ffc;border:1px #fdc635 solid;overflow:hidden;}
+.newbox .leader dt {float:left;font-size:14px;color:#f00;text-align:center;width:100%;font-weight:bolder;line-height:30px;}
+.newbox .leader dd {float:left;margin-left:10px;}
+.newbox .leader dd div.img {width:200px;float:left;text-align:center;}
+.newbox .leader dd div.img strong {width:110px;line-height:30px;float:left;font-size:14px;}
+.newbox .leader dd div.img strong a {color:#fe9900;float:none;}
+.newbox .leader dd div.t1 p {width:300px;height:40px;font-size:14px;line-height:20px;float:left;margin-top:10px; overflow:hidden}
+.newbox .leader dd div.t1 em {font-size:14px;height:40px;float:left;margin-left:20px;}
+.newbox .leader dd div.t1 strong {float:left;width:120px;}
+.newbox .leader dd div.t1 strong a {width:60px;float:left;color:#000;}
+/* .newbox .leader dd div.t1 {line-height:26px;color:#666;float:left; margin-bottom:5px;}
+.newbox .leader dd div.t1 a {font-size:14px;color:#333;}
+.newbox .leader dd div.t1 em {font-weight:bolder;color:#36c;font-size:14px;}
+.newbox .leader dd div.t1 strong {font-weight:bold; color:#f00;display:block;font-size:16px;}
+.newbox .leader dd div.t2 {float:left;}
+.newbox .leader dd div.t2 p {width:162px;padding:0 10px;float:left;margin-bottom:10px;margin-left:30px;}
+.newbox .leader dd div.t2 p em {width:54px;line-height:21px;float:left;font-weight:bolder;color:#36c;}
+.newbox .leader dd div.t2 p strong 	{width:108px;float:right;}
+.newbox .leader dd div.t2 p strong a {width:54px;height:21px; line-height:21px;float:left;font-weight:bold;color:#333;}
+.newbox .leader dd div.t2 a:hover {color:#f00} */
+/*===/End/======*/
+.newbox .nleft {width:171px;float:left;text-align:center}
+.newbox .nleft dl dt {width:100%;padding:30px 0;border:1px #fdc635 solid;margin-bottom:10px;}
+.newbox .nleft dl dd {width:100%;height:641px;height:623px\9;_height:625px;border:1px #f00 solid;overflow:hidden;}
+.newbox .nleft dl dd h2 {color:#f00;font-size:18px;padding-top:10px;padding-bottom:15px;}
+.newbox .nleft dl dd p {width:100%;float:left;}
+.newbox .nleft dl dd p a {font-size:16px;line-height:23px;line-height:22px\9;}
+/*===/End/======*/
+.nright{width: 816px;float: right;background:#fff; position:relative;}
+.nright .newslist{width: 814px;border: 1px solid #d2d2d2;border-top: none;float:left;position:relative;}
+.nright .newslist h3 a{color: #f00;font-size: 14px;}
+.nright .newslist ul {width:385px;padding-left:10px;float: left;margin:10px 0; border-left:1px #ccc solid; margin-left:-1px;}
+.nright .newslist ul li{padding-left: 21px;background: url(../pic2/list_bg.jpg) no-repeat 11px 11px;height:30px;line-height:30px;font-size: 14px;overflow: hidden;padding-right: 6px;}
+.nright .newslist ul li a {font-size:14px;}
+/*.nright .newslist .px1 {width:1px;height:230px;background:#ccc;position:absolute;top:45px;left:406px;}*/
+.nright .banner {margin:5px 0; float:left;}
+.nright .imglist {width: 816px;height: 314px;float: right;background:#fff;border: 1px solid #d2d2d2;border-top:0;overflow:hidden}
+.nright .imglist h3{height: 31px;line-height: 34px;background: url(../pic2/primarybox_bg.jpg) repeat-x;padding-left: 14px;padding-right: 5px;font-weight: bold; color: #f00;font-size: 14px;}
+.nright .imglist ul {width:900px;float: left;margin-top:15px;margin-left:15px}
+.nright .imglist ul li{float: left;width: 186px;height: 121px;overflow: hidden;margin:0 14px 10px 0;_margin-bottom:5px;display: inline;}
+.nright .imglist ul li a{display: block;}
+.nright .imglist ul li img{width: 186px;height: 121px;}
+
+.links {width:998px;float:left;border: 1px solid #d2d2d2;border-top: none;}
+.links .title {color:#f00;}
+.links div.alinks {padding:10px 20px; text-align:center;color:#ccc;}
+.links div.alinks a {padding:0 5px;color:#36c;}
+
+
+
+.bignews {width:276px;height:248px;float:left;border:1px #d2d2d2 solid;margin:0 10px;overflow:hidden;}
+.bignews .onenews{margin:0 3px 0 3px;}
+.bignews .onenews h2{text-align:center;display:block;height:31px;line-height:28px;overflow:hidden;}
+.bignews .onenews h2 a{font-size:11px;color:#f00;font-weight:bold}
+.bignews .onenews p{line-height:19px;color:#666;}
+.bignews ul.c2{width:260px;height:auto;clear:both;overflow:hidden;margin-left:12px;}
+.bignews ul.c2 li {padding-left:10px;background: url(../pic2/list_bg.gif) no-repeat 0 11px;width:260px;/*height:30px;*/line-height:30px;border-bottom:1px #d6d6d6 dotted;/*overflow:hidden;*/}
+.bignews ul.c2 li a {font-size:14px;}
+.bignews ul.c2 li a em {font-size:14px;}
+.bignews ul.c2 li a font {width:61px;font-size:11px;}
+.bignews ul.c2 li a strong {width:230px;float:left;}
+.bignews ul.c2 li a:hover {color:#f00;text-decoration:underline}
+
+
+
+
+
