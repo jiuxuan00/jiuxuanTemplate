@@ -24,6 +24,10 @@
     height: 56px;
     line-height: 56px;
     background: #333;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:10;
 }
 
 .header .nav li {
@@ -40,7 +44,7 @@
 .header .nav li .hot {
     background-position: 0 0;
     width: 21px;
-    height: 18px;
+    height: 14px;
     position: absolute;
     top: 8px;
     right: -20px;
@@ -53,7 +57,9 @@
 }
 
 /*--//End*/
-
+.container {
+    padding-top:56px;
+}
 .container .item {
     width: 100%;
     position: relative;
@@ -82,9 +88,10 @@
 }
 
 .container .item.item1 .t2 span {
+    padding:0 10px;
     border: 1px solid #000;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
     display: inline-block;
 }
 
@@ -100,6 +107,33 @@
     display: inline-block;
     margin: 0 6px;
 }
+.container .item.item1 .tt {
+    position: absolute;
+    top: 256px;
+    cursor: pointer;
+}
+.container .item.item1 .tt1 {
+    left: 513px;
+}
+.container .item.item1 .tt2 {
+    left: 545px;
+}
+.container .item.item1 .tt3 {
+    left: 577px;
+}
+.container .item.item1 .tt4 {
+    left:609px
+}
+.container .item.item1 .tt5 {
+    left:640px
+}
+.container .item.item1 .tt:hover img {
+    transform: scale(1.4);
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+
 
 .container .item.item2 {
     background: url(../images/bg2.jpg) no-repeat top center;
@@ -187,10 +221,14 @@
     float: left;
     color: #595757;
 }
-
+.container .item.item5 .t3 {
+    position: absolute;
+    top: 172px;
+    right: -6px;
+}
 .container .item.item6 {
     background: url(../images/bg6.jpg) no-repeat top center;
-    height: 1092px;
+    height: 843px;
 }
 .container .item.item6 .t1 {
     width: 100%;
@@ -210,9 +248,22 @@
     float: left;
     color: #595757;
 }
+.container .item.item6 .t3 {
+    width:160px;
+    height:570px;
+    position: absolute;
+    top:266px;
+    left:50%;
+    margin-left:-80px;
+}
+.container .item.item6 .t3 img {
+    position: absolute;
+    top:0;
+    left:0;
+}
 .container .item.item7 {
     background: url(../images/bg7.jpg) no-repeat top center;
-    height: 808px;
+    height: 1057px;
 }
 .container .item.item7 .t1 {
     width:100%;
@@ -220,7 +271,7 @@
     color: #231815;
     text-align: center;
     float: left;
-    margin-top:110px;
+    margin-top:390px;
 }
 .container .item.item7 .t2 {
     width:100%;
@@ -353,3 +404,7 @@
 
 
 
+.slow {
+    -vendor-animation-duration: 30s;
+    -vendor-animation-delay: 10s;
+}

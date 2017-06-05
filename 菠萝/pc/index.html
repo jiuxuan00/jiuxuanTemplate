@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/activity.css">
     <script src="js/jquery.min.js"></script>
-    <script src="js/activity.js"></script>
+    <script src="js/wow.js"></script>
 </head>
 <body>
 <div class="bd header">
@@ -30,14 +31,23 @@
 
 <div class="bd container">
     <div class="item item1">
-        <div class="t2">
-            <span>情趣直卖，没有中间商赚差价</span>
-        </div>
-        <div class="t3">
-            <span><i class="icon"></i>100%正品</span>
-            <span><i class="icon"></i>低价直供</span>
-            <span><i class="icon"></i>产品论坛</span>
-            <span><i class="icon"></i>提供试用</span>
+        <div class="hd">
+            <div class="t2">
+                <span>情趣直卖，没有中间商赚差价</span>
+            </div>
+            <div class="t3">
+                <span><i class="icon"></i>100%正品</span>
+                <span><i class="icon"></i>低价直供</span>
+                <span><i class="icon"></i>产品论坛</span>
+                <span><i class="icon"></i>提供试用</span>
+            </div>
+            <div class="t4">
+                <span class="tt tt1"><img src="images/tt1.png" alt=""></span>
+                <span class="tt tt2"><img src="images/tt2.png" alt=""></span>
+                <span class="tt tt3"><img src="images/tt3.png" alt=""></span>
+                <span class="tt tt4"><img src="images/tt4.png" alt=""></span>
+                <span class="tt tt5"><img src="images/tt5.png" alt=""></span>
+            </div>
         </div>
     </div>
     <!--//End item1-->
@@ -74,6 +84,7 @@
         <div class="hd">
             <div class="t1">产品论坛，让消费者重拾话语权</div>
             <div class="t2">让消费者说话，天塌不下来。哪款喷剂好？玛卡伤身吗？哪款按摩棒更酥麻？一起聊个痛快吧！更何况，发帖回帖还能赚积分，积分可以抵扣现金哦。</div>
+            <div class="t3 wow slideInUp" data-wow-duration="2s"><img src="images/comment.png" alt=""></div>
         </div>
     </div>
     <!--//End item5-->
@@ -83,6 +94,9 @@
         <div class="hd">
             <div class="t1">先试用，才能选出最好的</div>
             <div class="t2">部分产品由于产品特性，并非对所有人有效果。在特殊后勤，我们为这类产品准备了集合试用装。比如延时喷剂，我们将目前市场反馈最好的几个品牌做成体验组合，让您一次选中适合自己的好产品。</div>
+            <div class="t3">
+                <img class="wow slideInUp" data-wow-duration="2s" src="images/robot.png" alt="">
+            </div>
         </div>
     </div>
     <!--//End item6-->
@@ -163,4 +177,9 @@
 </div>
 
 </body>
+<script>
+$(function () {
+    new WOW().init();
+})
+</script>
 </html>
