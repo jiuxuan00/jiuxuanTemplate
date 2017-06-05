@@ -42,11 +42,11 @@
                 <span><i class="icon"></i>提供试用</span>
             </div>
             <div class="t4">
-                <span class="tt tt1"><img src="images/tt1.png" alt=""></span>
-                <span class="tt tt2"><img src="images/tt2.png" alt=""></span>
-                <span class="tt tt3"><img src="images/tt3.png" alt=""></span>
-                <span class="tt tt4"><img src="images/tt4.png" alt=""></span>
-                <span class="tt tt5"><img src="images/tt5.png" alt=""></span>
+                <span class="tt tt1"><img class="wow zoomIn" data-wow-duration="1s" src="images/tt1.png" alt=""></span>
+                <span class="tt tt2"><img class="wow zoomIn" data-wow-duration="1s" src="images/tt2.png" alt=""></span>
+                <span class="tt tt3"><img class="wow zoomIn" data-wow-duration="1s" src="images/tt3.png" alt=""></span>
+                <span class="tt tt4"><img class="wow zoomIn" data-wow-duration="1s" src="images/tt4.png" alt=""></span>
+                <span class="tt tt5"><img class="wow zoomIn" data-wow-duration="1s" src="images/tt5.png" alt=""></span>
             </div>
         </div>
     </div>
@@ -58,6 +58,7 @@
             <div class="bd t2">
                 特殊后勤的创始人，是资深情趣用品渠道商。由于常年稳定供货，被圈内称为“后勤部长”。凭借多年的经验累积，和渠道大数据的帮助，我们为您在万千产品中取其精华去其糟粕。少而精、多则滥，不要面面俱到，只要独到。
             </div>
+            <div class="t3 item2t3 wow slideInUp"><img src="images/bg2_1.png" alt=""></div>
         </div>
     </div>
     <!--//End item2-->
@@ -66,8 +67,10 @@
         <div class="hd">
             <div class="t1">好产品，是人手一票选出来的</div>
             <div class="t2">产品好不好，用户说了算。人气和口碑，永远是检验一款产品最有效的方法。特殊后勤专设人气排行榜。让用户帮您选择最受欢迎产品。</div>
+            <div class="t3 wow slideInUp"><img src="images/bg3_1.png" alt=""></div>
         </div>
     </div>
+    <div class="item item3_1"></div>
     <!--//End item3-->
 
     <div class="item item4">
@@ -87,8 +90,8 @@
             <div class="t3 wow slideInUp" data-wow-duration="2s"><img src="images/comment.png" alt=""></div>
         </div>
     </div>
+    <div class="item item5_1"></div>
     <!--//End item5-->
-
 
     <div class="item item6">
         <div class="hd">
@@ -119,6 +122,7 @@
                     <span>开放型BBS，让用户告诉你产品真相。</span>
                 </p>
             </div>
+            <div class="t4 wow zoomIn" data-wow-duration="1s"><img src="images/bg7_1.png" alt=""></div>
         </div>
     </div>
     <!--//End item7-->
@@ -179,7 +183,11 @@
 </body>
 <script>
 $(function () {
-    new WOW().init();
+    var wow = new WOW({
+        boxClass: 'wow',
+        offset: 200
+    });
+    wow.init();
 })
 </script>
 </html>

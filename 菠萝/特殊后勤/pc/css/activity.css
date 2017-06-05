@@ -3,7 +3,9 @@
     color: #888;
     font-family: "Microsoft Yahei";
 }
-
+body {
+    background: #fff;
+}
 .bd {
     width: 100%;
     min-width: 1180px;
@@ -136,8 +138,9 @@
 
 
 .container .item.item2 {
-    background: url(../images/bg2.jpg) no-repeat top center;
-    height: 695px;
+    background:#fff url(../images/bg2.jpg) no-repeat top center;
+    height: 605px;
+    /*padding-bottom:100px;*/
 }
 
 .container .item.item2 .t1 {
@@ -153,10 +156,16 @@
     margin-top: 23px;
     line-height: 31px;
 }
+.container .item.item2 .t3 {
+    position: absolute;
+    top:310px;
+    left:0;
+}
 
 .container .item.item3 {
-    background: url(../images/bg3.jpg) no-repeat top center;
-    height: 796px;
+    background: url(../images/bg3_01.jpg) no-repeat top center;
+    height: 666px;
+    margin-top:100px;
 }
 
 .container .item.item3 .t1 {
@@ -174,6 +183,15 @@
     line-height: 31px;
     float: left;
     color: #fff;
+}
+.container .item.item3 .t3 {
+    position: absolute;
+    top: 167px;
+    right: -123px;
+}
+.container .item.item3_1 {
+    background: url(../images/bg3_02.jpg) no-repeat top center;
+    height: 130px;
 }
 
 .container .item.item4 {
@@ -202,10 +220,9 @@
 }
 
 .container .item.item5 {
-    background: url(../images/bg5.jpg) no-repeat top center;
-    height: 693px;
+    background: url(../images/bg5_01.jpg) no-repeat top center;
+    height: 565px;
 }
-
 .container .item.item5 .t1 {
     width: 100%;
     font-size: 36px;
@@ -226,9 +243,19 @@
     top: 172px;
     right: -6px;
 }
+.container .item.item5_1 {
+    background: url(../images/bg5_02.jpg) no-repeat top center;
+    height: 128px;
+}
+
+
 .container .item.item6 {
     background: url(../images/bg6.jpg) no-repeat top center;
     height: 843px;
+}
+.container .item.item6 .hd {
+    height:836px;
+    overflow: hidden;
 }
 .container .item.item6 .t1 {
     width: 100%;
@@ -302,6 +329,13 @@
     color: #5d5d5d;
     margin-top:10px;
 }
+.container .item.item7 .t4 {
+    position: absolute;
+    top:136px;
+    left:50%;
+    margin-left:-108px;
+}
+
 /*--//End--*/
 .footer {
     width:100%;
