@@ -6,6 +6,8 @@
 body {
     background: #fff;
 }
+a:hover{
+    text-decoration: none;}
 .bd {
     width: 100%;
     min-width: 1180px;
@@ -23,8 +25,8 @@ body {
 }
 
 .header {
-    height: 56px;
-    line-height: 56px;
+    height: 45px;
+    line-height: 45px;
     background: #333;
     position: fixed;
     top:0;
@@ -34,13 +36,16 @@ body {
 
 .header .nav li {
     float: left;
-    margin-right: 36px;
     position: relative;
 }
 
-.header .nav li a {
-    font-size: 18px;
+.header .nav li a,
+.header .nav li span{
+    font-size: 16px;
     color: #b0b0b0;
+    float: left;
+    padding:0 16px;
+    cursor: pointer;
 }
 
 .header .nav li .hot {
@@ -51,9 +56,56 @@ body {
     top: 8px;
     right: -20px;
 }
+.header .nav li.nav_about .arrow-down {
+    background: url(../images/arrow-down.png) 0 0 no-repeat;
+    width:10px;
+    height:9px;
+    float: right;
+    margin-top:20px;
+}
+.header .nav li.nav_about .arrow-right {
+    background: url(../images/arrow-right.png) 0 0 no-repeat;
+    width:9px;
+    height:9px;
+    float: right;
+    margin-top:20px;
+}
+.header .nav li.nav_about .drop {
+    width:100%;
+    position: absolute;
+    top:45px;
+    left:0;
+    background: #333;
+    display: none;
+}
+.header .nav li.nav_about .drop a {
+    width:74px;
+}
+.header .nav li.nav_about .drop .rank {
+    width:100%;
+    float: left;
+    background: #333;
+    position: relative;
+
+}
+.header .nav li.nav_about .drop .rank1 {
+    width:100%;
+    position: absolute;
+    top:0;
+    left:100%;
+    background: #333;
+    display: none;
+}
+.header .nav li.nav_about .drop .rank:hover,
+.header .nav li.nav_about:hover span,
+.header .nav li.nav_about .rank a:hover{
+    background: #515151;
+}
+
+
 
 .header .nav .wechat {
-    font-size: 18px;
+    font-size: 16px;
     color: #b0b0b0;
     float: right;
 }
@@ -178,7 +230,7 @@ body {
 }
 
 .container .item.item3 .t2 {
-    width: 690px;
+    width: 590px;
     margin-top: 31px;
     line-height: 31px;
     float: left;
@@ -187,7 +239,7 @@ body {
 .container .item.item3 .t3 {
     position: absolute;
     top: 167px;
-    right: -123px;
+    right: 0;
 }
 .container .item.item3_1 {
     background: url(../images/bg3_02.jpg) no-repeat top center;
@@ -316,6 +368,7 @@ body {
 .container .item.item7 .t3 p {
     width:260px;
     float: left;
+    position: relative;
 }
 .container .item.item7 .t3 strong,
 .container .item.item7 .t3 span {
@@ -329,12 +382,40 @@ body {
     color: #5d5d5d;
     margin-top:10px;
 }
+.container .item.item7 .t3 p {
+    margin-right: 30px;
+    padding-left: 105px;
+}
+.container .item.item7 .t3 .icon {
+    width: 105px;
+    height: 65px;
+    position: absolute;
+    top: 0;left: 0;
+}
+.container .item.item7 .t3 .icon1 {
+    background-position: 0 -130px;
+}
+.container .item.item7 .t3 .icon2 {
+    background-position: 0 -195px;
+}
+.container .item.item7 .t3 .icon3 {
+    background-position: 0 -260px;
+}
+.container .item.item7 .t3 p.a2 {
+    padding-left: 116px;
+}
+.container .item.item7 .t3 p.a3 {
+    width: 274px;
+}
+
 .container .item.item7 .t4 {
     position: absolute;
     top:136px;
     left:50%;
     margin-left:-108px;
 }
+
+
 
 /*--//End--*/
 .footer {
@@ -415,9 +496,17 @@ body {
 }
 
 .footer .main .wechat {
+    width: 130px;
     float: right;
     margin-right:80px;
 }
+
+.footer .main .wechat p {
+    text-align: center;
+    line-height: 30px;
+    color: #b0b0b0;
+}
+
 .footer .copyright {
     width:100%;
     float: left;

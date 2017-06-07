@@ -68,7 +68,7 @@
 }
 
 .container .item3 .t1 {
-    font-size:18px;
+    font-size:20px;
     color: #fff;
     font-weight:bold;
     padding:0 25px;
@@ -80,7 +80,7 @@
     font-size:14px;
     color: #fff;
     line-height:18px;
-    top:17%;
+    top:19%;
 }
 
 .container .item4 .t1 {
@@ -188,7 +188,12 @@
 }
 
 
-
+@media screen and (min-width:374px){
+    .container .item2 .t2,
+    .container .item3 .t2,
+    .container .item4 .t2,
+    .container .item6 .t2 {line-height: 24px;}
+}
 
 
 
